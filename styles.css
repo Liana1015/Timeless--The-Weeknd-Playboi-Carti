@@ -1,0 +1,71 @@
+body {
+background: linear-gradient(#000000, #E5D9B6);
+margin: 0;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+background: white;
+border: 3px double #EFBF04;
+border-radius: 25px;
+padding: 30px 40px;
+text-align: center;
+max-width: 500px;
+width: 100%;
+}
+
+button {
+margin-top: 10px;
+padding: 10px 20px;
+font-size: 16px; 
+border: none;
+cursor: pointer;
+background: #007bff;
+color: white;
+border-radius: 8px;
+transition: background 0.3s ease;
+}
+
+
+img {
+width: 100%;
+max-width: 350px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+
+#overlay {
+display: none;
+position: fixed;
+top: 0; left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.5);
+z-index: 1;
+}
+
+#Alert {
+display: none;
+position: fixed;
+top: 50%; left: 50%;
+transform: translate(-50%,-50%);
+background: white;
+padding: 20px 30px;
+box-shadow: 0 0 50px 15px #FFFDD0;
+border-radius: 12px;
+z-index: 2;
+text-align: center;
+}
+
+.Judul lagu {
+  font-family: 'Segoe UI', sans-serif
+}
+
+.Alasan {
+   font-family: "Times New Roman", Times, serif;
+}
+
